@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.button-container {
+    display:block;
+    justify-content:start;
+}
+
+.edit-button, .view-button {
+    border-radius: 30px;
+    background-color: #0074d9;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin: 1px; /* Add margin for spacing */
+}
+
+.delete-button{
+    border-radius: 30px;
+    background-color: #d9002f;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin: 1px; /* Add margin for spacing */
+}
+.modal{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.623);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container{
+    padding: 10px;
+    background: white;
+    border-radius: 20px;
+}
+
+.modal-container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.d-none {
+    display: none;
+}
+.column1 {
+    width: 15%; /* Adjust the width as needed */
+    float: left;
+    background-color: #000032;
+    padding: 10px;
+    border-right: 1px solid white;
+    box-sizing: border-box;
+    height: 738px;
+}
+.column2 {
+    width: 65%; /* Adjust the width as needed */
+    float: left;
+    background-color: #000032;
+    padding: 10px;
+    border-right: 1px solid white;
+    box-sizing: border-box;
+    height: 738px;
+}
+.column3 {
+    width: 20%; /* Adjust the width as needed */
+    float: left;
+    background-color: #000032;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 738px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+td{
+    color: #FEC60D;
+}
+.button-row {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.buttonnav {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buttonnav:hover {
+    background-color: #0056b3;
+}
+.butLogout{
+    margin-top: 200px;
+    background-color: #d9002f;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.butLogout:hover{
+    background-color:#b80027;
+}
+
+
